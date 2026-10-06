@@ -12,7 +12,8 @@ The paper is a **conceptual research agenda** (a working draft). It reports no e
 - `index.html`, `css/site.css`, `js/site.js`: the page. Plain HTML, CSS and a small script. No build step, no framework, no analytics, no web fonts, no tracking.
 - `assets/paper.pdf`: the paper (46 pages) that the page summarises.
 - `assets/img/figures/`: the paper's conceptual figures (made with an image model for the paper; not measurements).
-- `assets/img/examples/`: example frames, each with a visible credit and a source link on the page: four frames from Google's Veo 3.1 documentation, frames from videos credited to code-based workflows, and one frame from a film whose production method is not stated.
+- `assets/img/examples/`: example frames, each with a visible credit and a source link on the page: four frames from Google's Veo 3.1 documentation and three frames from videos credited to code-based workflows.
+- `assets/img/video/`: the cover image of the companion video (a frame from the local render of the paper's 4-minute explainer).
 - `assets/img/art/`: one small hand-built SVG drawing.
 
 ## View it
@@ -30,5 +31,5 @@ When GitHub Pages is switched on for this repository (Settings → Pages → Dep
 ## Notes
 
 - **Example frames are other people's work.** They are shown to illustrate the topic, with the creator or provider credit and a link to the source under each frame. The page says only what each source says about how its video was made.
-- **The film player loads YouTube only when you press play.** Until then the page makes no request to YouTube. The player uses YouTube's privacy-enhanced embed (`youtube-nocookie.com`).
+- **The companion video** is the paper's 4-minute explainer by Zheng Gao (YouTube `14SMl0d_e48`). **The player loads YouTube only when you press play.** Until then the page makes no request to YouTube. The player uses YouTube's privacy-enhanced embed (`youtube-nocookie.com`).
 - **Licence.** No licence file is included; the repository owner has not chosen one yet.

@@ -82,7 +82,7 @@ often missing:
   <div class="byline-item"><dt>Date</dt><dd>October 2026</dd></div>
   <div class="byline-item"><dt>Status</dt><dd>Conceptual working draft. No experiments.</dd></div>
   <div class="byline-item"><dt>Paper</dt><dd><a href="assets/paper.pdf" rel="noopener">Read the full paper (PDF, 46 pages, 15.8 MB, compiled 6 October 2026)</a></dd></div>
-  <div class="byline-item"><dt>Film</dt><dd><a href="#watch-film">Watch the film on this page (17 min)</a></dd></div>
+  <div class="byline-item"><dt>Video</dt><dd><a href="#watch-film">Watch the 4-minute explainer on this page</a></dd></div>
 </dl>
   </div>
 </div>
@@ -97,7 +97,7 @@ often missing:
 <ul class="toc-list">
   <li><a href="#two-ways">Two ways to make a video</a>
     <ul>
-      <li><a href="#watch-film">Watch the film</a></li>
+      <li><a href="#watch-film">Watch the video</a></li>
       <li><a href="#same-chart">The same chart, made two ways</a></li>
       <li><a href="#real-examples">Real examples</a></li>
     </ul>
@@ -138,17 +138,17 @@ often missing:
 
 <p>This page is a plain-language guide to a research paper about provenance: where a clip came from and how it was made. The paper asks how we could find out how a video was made, and what a watermark could and could not prove. A watermark, or mark for short, is a hidden signal added to a picture or video so that a detector can look for it later. The paper poses questions. It does not report experiments. First, here are the two main ways videos are made today.</p>
 
-<h3 id="watch-film">Watch the film</h3>
-<p>One of the example frames further down comes from this 17-minute film by Xiaoyu Li, a co-author of this paper. You can play it right here. The paper does not discuss it, and its description does not say how it was made.</p>
-<figure class="fig fig--video" id="film-player">
+<h3 id="watch-film">Watch the video</h3>
+<p>Prefer to watch? This 4-minute explainer goes with this page. It was made by the paper's first author and follows the same research agenda in everyday words. You can play it right here.</p>
+<figure class="fig fig--video" id="video-player">
   <div class="yt-poster yt-poster--feature">
-    <img src="assets/img/examples/ex-film-xiaoyu-li.jpg" width="708" height="393" alt="A dark navy slide from the film, headed “I - THE SLICE”: the words “image: where can it go?” and “fibres: same weights; how training moves”, a double-cone diagram, and a point labelled theta zero joined by thin lines to orange points." loading="lazy" decoding="async">
-    <button type="button" class="yt-play" data-yt-id="vJaO44jOOUc" data-yt-inline data-yt-title="A Categorical Atlas of Parameter-Efficient Fine-Tuning: Cones, Orbits, and Gauges" aria-label="Play the film here: A Categorical Atlas of Parameter-Efficient Fine-Tuning: Cones, Orbits, and Gauges (loads YouTube)">
+    <img src="assets/img/video/companion-poster.jpg" width="1280" height="720" alt="A frame from the video: two bar charts on crumpled paper, one drawn directly by an AI image model and one drawn from code, with the caption “Two charts. Same numbers, similar look.”" loading="lazy" decoding="async">
+    <button type="button" class="yt-play" data-yt-id="14SMl0d_e48" data-yt-inline data-yt-title="Rethinking Visual Provenance: Two Ways AI Makes Pictures, and How a Hidden Tag Might Help" aria-label="Play the video here: Rethinking Visual Provenance: Two Ways AI Makes Pictures, and How a Hidden Tag Might Help (loads YouTube)">
       <svg class="yt-icon" viewBox="0 0 64 64" aria-hidden="true" focusable="false"><circle cx="32" cy="32" r="30"/><path d="M26 20 L46 32 L26 44 Z"/></svg>
-      <span class="yt-label">Play the film<small>17 min · loads YouTube</small></span>
+      <span class="yt-label">Play the video<small>4 min · loads YouTube</small></span>
     </button>
   </div>
-  <figcaption><strong>A Categorical Atlas of Parameter-Efficient Fine-Tuning: Cones, Orbits, and Gauges.</strong> A 17-minute film uploaded to YouTube by Xiaoyu Li (@xiaoyulics). Its description credits Xiaoyu Li, Zhizhou Sha, Chiwun Yang and Dai Shi. Press play to load the film from YouTube; nothing is loaded before that. <a href="https://www.youtube.com/watch?v=vJaO44jOOUc" rel="noopener" aria-label="Watch the film on YouTube">Watch on YouTube ↗</a><span class="credit">Production method not stated. The title card reads “with Claude Opus 5.5 (Anthropic)”; it does not say what that covers or how the film was rendered. More in the <a href="#credits">credits</a>.</span></figcaption>
+  <figcaption><strong>Rethinking Visual Provenance: Two Ways AI Makes Pictures, and How a Hidden Tag Might Help.</strong> A 4-minute explainer by Zheng Gao, first author of the paper, posted on YouTube on 6 October 2026. Its description says it is a research agenda (“questions, not results”) and discloses how it was made: drawn from code with AI help, a computer-generated voice and AI-generated characters. Press play to load the video from YouTube; nothing is loaded before that. <a href="https://www.youtube.com/watch?v=14SMl0d_e48" rel="noopener" aria-label="Watch the video on YouTube">Watch on YouTube ↗</a><span class="credit">The cover is a frame at about 0:08 from the local render of this video, not a screenshot of the YouTube page. More in the <a href="#credits">credits</a>.</span></figcaption>
 </figure>
 
 <p><strong>Route A: a model paints the pixels.</strong> Many image and video generators are diffusion models<sup class="sn-ref"><a href="#sn-1" id="snr-1" aria-label="Note 1">1</a></sup>. They start from random noise and remove the noise step by step, guided by a text prompt.</p>
@@ -222,26 +222,15 @@ often missing:
 </div>
 
 
-<h4>Credited to code-based workflows, or with no method stated</h4>
-<p>Each frame here is either credited to a video rendered from code or carries the label “Production method not stated”. The credits come from the creators, or from the official Remotion gallery. Some of these videos also use imported images or 3D models. For the “still loading” frame, the credit comes from the creator's own report (he is a co-author of this paper), not from the public page.</p>
+<h4>Credited to code-based workflows</h4>
+<p>Each frame here is credited to a video rendered from code. The credits come from the creators, or from the official Remotion gallery. Some of these videos also use imported images or 3D models. For the “still loading” frame, the credit comes from the creator's own report (he is a co-author of this paper), not from the public page.</p>
 <div class="band l-screen">
 <div class="grid">
-<div class="gallery l-page gallery--2" data-gallery aria-label="Frames credited to code-based workflows, or with no method stated">
+<div class="gallery l-page gallery--3" data-gallery aria-label="Frames credited to code-based workflows">
   <figure class="shot" id="ex-still-loading-1">
     <span class="chip chip--mixed">Creator-reported code · assets unspecified</span>
     <img src="assets/img/examples/ex-still-loading-1.jpg" width="1280" height="720" alt="Anime-style young woman with braids in a yellow cardigan and red skirt walking down a lantern-lit stone street above a harbour at sunset, with a small &#x27;INTERLUDE 01:11&#x27; progress bar at top left." loading="lazy" decoding="async" data-zoom>
     <figcaption><strong>&#x27;still loading&#x27; music video, 1:11.</strong> A frame from a music video by Zheng Gao, a co-author of this paper. He reports that it was rendered by code written with Claude&#x27;s help; the public Bilibili page does not say how it was made. Where the illustrated backgrounds and character art came from is not stated. <strong>Retouched:</strong> in one small area at the top left (about 2% of the frame), an image model painted over the platform's logo and account-name overlay and redrew the part of the progress bar behind it, so those pixels are generated. Everything else is the original decoded frame. <span class="credit"><span class="shot-kind">Decoded frame (retouched in one small area)</span> · Zheng Gao, a co-author of this paper (Bilibili account Elvis的游乐园, named as the source credit) · <a href="https://www.bilibili.com/video/BV15qYA6nE6u/" rel="noopener" aria-label="Source for &#x27;still loading&#x27; music video, 1:11">source</a> · captured 5 Oct 2026</span></figcaption>
-  </figure>
-  <figure class="shot shot--video" id="ex-film-xiaoyu-li">
-    <span class="chip chip--unspec">Production method not stated</span>
-    <div class="yt-poster">
-      <img src="assets/img/examples/ex-film-xiaoyu-li.jpg" width="708" height="393" alt="A dark navy slide headed I - THE SLICE. The word image in teal with the words where can it go, and the word fibres in orange with the words same weights; how training moves. A teal double cone, two cones meeting at a glowing point labelled theta zero, and orange points joined to it by thin lines." loading="lazy" decoding="async">
-      <button type="button" class="yt-play" data-yt-id="vJaO44jOOUc" data-yt-title="A Categorical Atlas of Parameter-Efficient Fine-Tuning: Cones, Orbits, and Gauges" aria-label="Play the film here: A Categorical Atlas of Parameter-Efficient Fine-Tuning: Cones, Orbits, and Gauges (opens a player and loads YouTube)">
-        <svg class="yt-icon" viewBox="0 0 64 64" aria-hidden="true" focusable="false"><circle cx="32" cy="32" r="30"/><path d="M26 20 L46 32 L26 44 Z"/></svg>
-        <span class="yt-label">Play here<small>17 min · loads YouTube</small></span>
-      </button>
-    </div>
-    <figcaption><strong>Film frame: “I - The slice”.</strong> A frame from a 17-minute film about parameter-efficient fine-tuning, uploaded to YouTube by Xiaoyu Li, a co-author of this paper. The slide is headed “I - THE SLICE”. Its description does not say how the film was made. The film's title card, visible in the player, reads “with Claude Opus 5.5 (Anthropic)”; it does not say what that covers or how the film was rendered. The film's description ends with the line “License: CC BY 4.0.”; we draw no conclusion from it. The paper does not discuss this film. <span class="yt-note">Press play to open the film in a player on this page. Nothing is loaded from YouTube before you do. <a href="https://www.youtube.com/watch?v=vJaO44jOOUc" rel="noopener" aria-label="Watch A Categorical Atlas of Parameter-Efficient Fine-Tuning: Cones, Orbits, and Gauges on YouTube">Watch on YouTube ↗</a></span> <span class="credit"><span class="shot-kind">Frame from the film (time not recorded)</span> · Xiaoyu Li (YouTube channel @xiaoyulics), a co-author of this paper · <a href="https://www.youtube.com/watch?v=vJaO44jOOUc" rel="noopener" aria-label="Source for Film frame: “I - The slice”">source</a> · screenshot supplied by the paper&#x27;s author on 6 Oct 2026</span></figcaption>
   </figure>
   <figure class="shot" id="ex-remotion-map">
     <span class="chip chip--mixed">Code-rendered · assets unspecified</span>
@@ -919,7 +908,7 @@ often missing:
   <li><strong>Game-ranking frame.</strong> Dilum Sanjaya (@DilumSanjaya), via the official Remotion gallery entry, which credits him and labels the tool Claude Code. The creator's public thread describes the workflow and the imported assets. <a href="https://www.remotion.dev/prompts/threejs-top-20-games-sold-ranking-1" rel="noopener">Gallery</a>, <a href="https://x.com/DilumSanjaya/status/2018367621381620142" rel="noopener">original post</a>, <a href="https://x.com/DilumSanjaya/status/2018367624019911007" rel="noopener">workflow post</a>, <a href="https://x.com/DilumSanjaya/status/2018367629141086242" rel="noopener">asset post</a>. Frame decoded from the gallery video, scaled to 1280 px wide; captured 5 October 2026. The game titles and sales numbers are the video's own content, not data we used.</li>
   <li><strong>“still loading” frame.</strong> Music video by Zheng Gao, a co-author of this paper, posted on Bilibili on 1 October 2026 (account “Elvis的游乐园”, named here only as the source credit). He reports that it was rendered by code written with Claude's help; the public page does not state the workflow. The paper's Figure 4(b) and reference [51] credit the video to him. The origin of the images inside it is not stated. <a href="https://www.bilibili.com/video/BV15qYA6nE6u/" rel="noopener" aria-label="Source: Bilibili video BV15qYA6nE6u">Source</a>. Captured 5 October 2026.</li>
   <li><strong>Retouch disclosure.</strong> In the “still loading” frame (01:11), an image model was used to paint over the platform's logo and account-name overlay in the upper-left corner (about 2% of the frame) and to redraw the part of the on-screen progress bar hidden behind it, so those pixels are generated, not original. Everything outside that small area is the original decoded frame. The other frames are not retouched; any trimming or scaling is described in their own credits.</li>
-  <li><strong>Film frame (production method not stated).</strong> A frame from the YouTube film “A Categorical Atlas of Parameter-Efficient Fine-Tuning: Cones, Orbits, and Gauges”, uploaded by Xiaoyu Li (channel @xiaoyulics, about 6 October 2026). Xiaoyu Li is also a co-author of this paper, but the paper does not discuss this film. The film's description cites a technical report by Xiaoyu Li, Zhizhou Sha, Chiwun Yang and Dai Shi. The film's title card, visible in the player, reads “with Claude Opus 5.5 (Anthropic)”. The description ends with the line “License: CC BY 4.0.”. Neither says how the film was rendered, and we make no claim about that. The frame is a screenshot supplied by the paper's author on 6 October 2026; its time in the film was not recorded. The “Play here” button opens the film in a player on this page, using YouTube's privacy-enhanced embed (youtube-nocookie.com). Nothing is loaded from YouTube until you press it. <a href="https://www.youtube.com/watch?v=vJaO44jOOUc" rel="noopener" aria-label="Source: YouTube film page">Source</a>.</li>
+  <li><strong>Companion video.</strong> “Rethinking Visual Provenance: Two Ways AI Makes Pictures, and How a Hidden Tag Might Help”, a 4-minute explainer (4:21) uploaded to YouTube by Zheng Gao (channel @GaoZheng-l2i), first author of this paper; YouTube lists it as published on 6 October 2026. Its description says it is “a research agenda: questions, not results” and gives these disclosures: “Drawn from code with AI help. Computer-generated voice. AI-generated characters.” It also credits the Google Veo 3.1 documentation paraglider still and the “still loading” music video (one corner retouched to remove a platform mark). We have not checked how it was made beyond its own description. The cover image on this page is a frame at about 0:08 from the local render of the video, not a screenshot of the YouTube page. The “Play the video” button opens the video in a player on this page, using YouTube's privacy-enhanced embed (youtube-nocookie.com). Nothing is loaded from YouTube until you press it. <a href="https://www.youtube.com/watch?v=14SMl0d_e48" rel="noopener" aria-label="Source: the companion video on YouTube">Source</a>.</li>
   <li><strong>Map-animation frame.</strong> The official Remotion gallery entry “Travel Route on Map with 3D Landmarks”, credited to @JNYBGR, with gallery labels Claude Code and Opus 4.5. Those labels belong to that example only. <a href="https://www.remotion.dev/prompts/travel-route-on-map-with-3d-landmarks" rel="noopener" aria-label="Source: Remotion gallery entry for the travel route on a map">Source</a>.</li>
   <li>Any further frames in the galleries carry their own credit line in the caption.</li>
 </ul>
