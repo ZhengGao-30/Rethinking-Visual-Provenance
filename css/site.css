@@ -1418,3 +1418,17 @@ html:not(.js) .yt-play { display: none; }                 /* no script: the capt
   .lightbox--video .lightbox-cap { position: static; max-width: calc(100vw - 32px); }
 }
 @media print { .yt-play, .lightbox--video { display: none !important; } }
+
+/* Featured player (inline): the poster becomes the player in place, 16:9, no layout jump. */
+.fig--video { margin: 1.5rem 0 2.5rem; }
+.yt-poster--feature { aspect-ratio: 16 / 9; background: #000; overflow: hidden; }
+.yt-poster--feature > img { width: 100%; height: 100%; object-fit: cover; display: block; border: 1px solid rgba(0, 0, 0, .18); }
+.yt-poster--feature .yt-play {
+  left: 50%; top: 50%; bottom: auto;
+  transform: translate(-50%, -50%);
+  padding: 10px 24px 10px 12px;
+  font-size: 16px;
+}
+.yt-poster--feature .yt-icon { width: 48px; height: 48px; }
+.yt-poster--feature iframe { display: block; width: 100%; height: 100%; border: 0; }
+.fig--video figcaption .credit { display: block; }
