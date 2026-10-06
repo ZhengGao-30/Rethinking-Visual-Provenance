@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32" role="img" aria-label="Visual Provenance">
+  <!-- film frame: charcoal body, sprocket holes, a coral "mark" inside the picture -->
+  <rect x="3" y="6" width="26" height="20" rx="2.5" fill="#2b2b2a"/>
+  <g fill="#fff" opacity=".92">
+    <rect x="5" y="8.2" width="2.4" height="2.4" rx=".6"/><rect x="5" y="14.8" width="2.4" height="2.4" rx=".6"/><rect x="5" y="21.4" width="2.4" height="2.4" rx=".6"/>
+    <rect x="24.6" y="8.2" width="2.4" height="2.4" rx=".6"/><rect x="24.6" y="14.8" width="2.4" height="2.4" rx=".6"/><rect x="24.6" y="21.4" width="2.4" height="2.4" rx=".6"/>
+  </g>
+  <rect x="9.5" y="9" width="13" height="14" rx="1" fill="#fbfbfa"/>
+  <path d="M9.5 20.2 14 15.6l3 3 2.3-2.4 3.2 3.4V22a1 1 0 0 1-1 1h-11a1 1 0 0 1-1-1z" fill="#d9d9d4"/>
+  <circle cx="19.6" cy="12.8" r="2.3" fill="#d97757"/>
+</svg>
