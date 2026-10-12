@@ -3,7 +3,7 @@
 A static web page that explains, in plain language, the research paper
 
 > **Rethinking Visual Provenance: Detection and Watermarking Across Direct Visual Generation and LLM-Driven Code Rendering**
-> Zheng Gao, Xiaoyu Li, Zhicheng Bao, Yang Song, Jiaojiao Jiang (UNSW Sydney)
+> Zheng Gao, Xiaoyu Li, Zhicheng Bao, Jiaojiao Jiang (UNSW Sydney)
 
 The paper is a **conceptual research agenda** (a working draft). It reports no experiments and no new theorems, and the page makes no claim about how well any detector or watermark works. The page asks how a video was made (a model painting the pixels, or code drawing them) and what a hidden watermark, a guess by a detector, or a signed record could and could not show.
 
